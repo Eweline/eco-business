@@ -27,14 +27,14 @@
 }
 
 @font-face {
-	font-family: 'MyriadPro-Semibold';
-	src: url('../fonts/MyriadPro-Semibold.eot');
+	font-family: 'MyriadPro-Cond';
+	src: url('../fonts/MyriadPro-Cond.eot');
 
-	src:  local('MyriadPro-Semibold'),
-		local("Myriad Pro Semibold"),
-		url('../fonts/MyriadPro-Semibold.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/MyriadPro-Semibold.woff'), format('woff'),
-		url('../fonts/MyriadPro-Semibold.ttf'), format('truetype');
+	src:  local('MyriadPro-Cond'),
+		local("Myriad Pro Cond"),
+		url('../fonts/MyriadPro-Cond.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MyriadPro-Cond.woff'), format('woff'),
+		url('../fonts/MyriadPro-Cond.ttf'), format('truetype');
 	font-weight: normal;
 	font-style: normal;
 
@@ -86,7 +86,7 @@ h1{
 	display: inline-block;
 	font-size: 39px;
 	font-family: 'MyriadPro-Regular';
-	text-shadow: 1px 1px 1px #adba77;
+/*	text-shadow: 1px 1px 1px #adba77;*/
 	margin-left: 5px;
 	font-weight: 200;
 }
@@ -177,6 +177,15 @@ h1{
 #conteudo{
 	margin: 0 49px;
 	color: #848484;
+}
+
+#conteudo h2{
+    font-family: MyriadPro-Cond;
+    font-weight: normal;
+}
+
+#conteudo h2 span{
+    color: #abb820;
 }
 
 .cinzaclaro{
@@ -292,7 +301,7 @@ footer{
 
 ul.unstyled{
 	color: #000000;
-	margin: 5px 15px 0 15px;
+	margin: 5px 20px 0 15px;
 	padding: 0;
 	width: 100px;
 }
@@ -303,6 +312,11 @@ a.unstyled{
 
 p.unstyled{
 	margin: 0;
+}
+
+figure.unstyled{
+    margin: 0 17px 0 0;
+    width: auto;
 }
 
 .clearfix:after {
@@ -322,6 +336,17 @@ section {
 	margin: 0 0 50px 0;
 }
 
-.setas{
+
+
+.setas-lista{
 	list-style-image: url('../img/seta-verde.png');
+}
+
+.setas-artigo{
+    display: inline-block;
+    background-image: url(../img/seta-linha.png);
+    float: right;
+    height: 10px;
+    margin: -13px 0;
+    width: 10px;
 }

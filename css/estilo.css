@@ -1,0 +1,327 @@
+@font-face {
+	font-family: 'MyriadPro-BoldCond';
+	src: url('../fonts/MyriadPro-BoldCond.eot');
+
+	src:  local('MyriadPro-BoldCond'),
+		local("Myriad Pro Bold Condensed"),
+		url('../fonts/MyriadPro-BoldCond.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MyriadPro-BoldCond.woff'), format('woff'),
+		url('../fonts/MyriadPro-BoldCond.ttf'), format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'MyriadPro-Regular';
+	src: url('../fonts/MyriadPro-Regular.eot');
+
+	src:  local('MyriadPro-Regular'),
+		local("Myriad Pro Regular"),
+		url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MyriadPro-Regular.woff'), format('woff'),
+		url('../fonts/MyriadPro-Regular.ttf'), format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'MyriadPro-Semibold';
+	src: url('../fonts/MyriadPro-Semibold.eot');
+
+	src:  local('MyriadPro-Semibold'),
+		local("Myriad Pro Semibold"),
+		url('../fonts/MyriadPro-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MyriadPro-Semibold.woff'), format('woff'),
+		url('../fonts/MyriadPro-Semibold.ttf'), format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+/* HEADER */
+
+.main{
+	background-image:url('../img/background2.png');
+    background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 775px;
+}
+
+
+
+/* ------ 
+	   HEADER
+		   --------*/	
+.logo{
+	float: left;
+	margin: 15px 100px 0 60px;
+	width: 245px;
+}
+
+.menu{
+	padding: 20px;
+}
+
+.banner{
+	color: #fff;
+	float: right;
+	width: 400px;
+}
+
+h1{
+	margin-top: 45px;
+}
+
+.sloganprinc{
+	font-family: 'MyriadPro-Regular';
+	font-size: 46px;
+	font-weight: 200;
+}
+
+.slogan1{
+	color: #d5e88e;
+	display: inline-block;
+	font-size: 39px;
+	font-family: 'MyriadPro-Regular';
+	text-shadow: 1px 1px 1px #adba77;
+	margin-left: 5px;
+	font-weight: 200;
+}
+
+.slogan2{
+	font-family: 'MyriadPro-Semibold';
+	font-size: 24px;
+	margin-left: 50px;
+	vertical-align:text-top;
+}
+
+.slogan3{
+	float: left;
+	font-family: 'MyriadPro-Regular';
+	font-size: 29px;
+	font-weight: 200;
+	margin-left: 25px;
+}
+
+.header{
+	display: block;
+	width: 774px; 
+	height: 350px;
+}
+
+.a-header{
+	padding: 7px;
+	color: #ffffff;
+	font-family: 'MyriadPro-BoldCond';
+	text-decoration: none;
+	font-size: 13px;
+	text-shadow: 1px 1px 1px #63625f;
+
+}
+
+#linha-cabecalho{
+	background-color: #22201d;
+	border-bottom: 1px solid #403e39;
+	margin-left: 25px;
+}
+
+.icon-plus{
+    display: inline-block;
+    background-image: url(../img/seta-botao.png);
+    height: 10px;
+    margin: 0 5px;
+    width: 10px;
+}
+
+#button{
+	background-color: #006dcc;
+	background-image: -moz-linear-gradient(top, #4f4b46, #3d3a36);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4f4b46), to(#3e3b36));
+	background-image: -webkit-linear-gradient(top, #4f4b46, #3d3a36);
+	background-image: -o-linear-gradient(top, #4f4b46, #3e3b36);
+	background-image: linear-gradient(to bottom, #4f4b46, #3e3b36);
+	border-color: #3d3a36 #3d3a36 #4d4944;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+    
+    display: inline-block;
+	
+	float: right;
+	margin-right: 180px;
+
+	font-family: Myriad Pro;
+
+	padding: 8px;
+
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+.upper{
+	text-transform: uppercase;
+}
+
+
+
+/* ----------
+		CONTEÚDO
+			----------*/
+
+#conteudo{
+	margin: 0 49px;
+	color: #848484;
+}
+
+.cinzaclaro{
+	color: #cdcdcd;
+}
+
+section hr{
+	border: 1px dashed #cdcdcd;
+}
+
+section{
+	/*margin: 10px;
+	margin-left: 30px;*/
+	width: 275px;
+}
+
+.esquerdo{
+	float: left;
+	width: 130px;
+	margin: 0 0 3px 0;
+}
+
+.esquerdoimagem{
+	float: left;
+	width: 49px;
+	margin: 0 0 10px 0;
+}
+
+.esquerdolink{
+	margin: 0 25px 0 0;
+	width: 75px;
+}
+
+.esquerdotexto{
+	float: left;
+	margin: 3px 25px 0 0;
+	width: 124px;
+}
+
+.amarelo{
+	color: #abb820;
+}
+
+.negrito{
+	font-weight: bold;
+}
+
+.txt{
+	margin: 0 0 20px 0;
+	width: 210px;
+}
+
+.parag-esquerdo{
+	float: left;
+}
+
+.more{
+	color: #000000;
+	text-decoration: none;
+}
+
+.margem{
+	margin: 0 10px 0 0;
+}
+
+h3{
+	font-size: 12px;
+	margin: 0px;
+}
+
+section p, li, a{
+	font-size: 11px;
+}
+
+.coluna{
+	float: left;
+	margin: 20px;
+	margin-left: 35px;
+	width: 280px;
+}
+
+section a{
+	color: #848484;
+}
+
+
+/* --------
+		FOOTER
+			--------*/
+
+footer{
+	text-align: center;
+	background-color: #e9e9e9;
+	color: #848484;
+	width: 100%;
+}
+
+.a-footer{
+	color: #848484;
+	font-family: 'Tahoma';
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.espaco-footer{
+	margin: 0 3px;
+}
+
+
+/*--------
+	COMPONENTES
+	 	---------*/
+
+ul.unstyled{
+	color: #000000;
+	margin: 5px 15px 0 15px;
+	padding: 0;
+	width: 100px;
+}
+
+a.unstyled{
+	margin: 0;
+}
+
+p.unstyled{
+	margin: 0;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix { display: inline-block; }
+*html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+section {
+	margin: 0 0 50px 0;
+}
+
+.setas{
+	list-style-image: url('../img/seta-verde.png');
+}

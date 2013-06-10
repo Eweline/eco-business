@@ -71,14 +71,12 @@
 	width: 400px;
 }
 
-h1{
-	margin-top: 45px;
-}
-
 .sloganprinc{
+	display: block;
 	font-family: 'MyriadPro-Regular';
 	font-size: 46px;
 	font-weight: 200;
+	margin-top: 45px;
 }
 
 .slogan1{
@@ -106,7 +104,7 @@ h1{
 	margin-left: 25px;
 }
 
-.header{
+header{
 	display: block;
 	width: 774px; 
 	height: 350px;

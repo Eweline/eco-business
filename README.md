@@ -18,5 +18,4 @@
        - git;
     
 ##RECURSOS UTILIZADOS (Referências)
-    paragrafo
-        Layout em psd disponibilizado no endereço http://br.freepik.com/index.php?goto=41&idd=597752&url=aHR0cDovL3hvb3BsYXRlLmNvbS90ZW1wbGF0ZS9kZXRhaWxzLzI2MjctZWNvLWJ1c2luZXNzLXBzZC10ZW1wbGF0ZQ== , baixado na data 14/05/2013, com objetivos academicos e não comerciais.  
+        Layout em psd disponibilizado no LINK [Freepik](http://br.freepik.com/index.php?goto=41&idd=597752&url=aHR0cDovL3hvb3BsYXRlLmNvbS90ZW1wbGF0ZS9kZXRhaWxzLzI2MjctZWNvLWJ1c2luZXNzLXBzZC10ZW1wbGF0ZQ==), baixado na data 14/05/2013, com objetivos academicos e não comerciais.  
